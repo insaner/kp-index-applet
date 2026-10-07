@@ -15,6 +15,9 @@ As root/superuser:
 cp org.mate.panel.applet.KpIndexAppletFactory.service  /usr/share/dbus-1/services/
 cp org.mate.panel.KpIndexApplet.mate-panel-applet  /usr/share/mate-panel/applets/
 cp kp-index-applet.py  /usr/libexec/
+
+cp org.mate.panel.KpIndexApplet.gschema.xml /usr/share/glib-2.0/schemas/
+glib-compile-schemas /usr/share/glib-2.0/schemas/
 ```
 
 

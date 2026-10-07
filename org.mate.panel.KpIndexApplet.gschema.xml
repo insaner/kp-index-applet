@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.mate.kp-index-applet" path="/org/mate/kp-index-applet/">
+
+    <key name="timeout" type="i">
+      <default>3600</default>
+      <summary>Request timeout</summary>
+      <description>Number of seconds before the Kp data is refreshed from the server.</description>
+    </key>
+
+    <key name="width" type="i">
+      <default>30</default>
+      <summary>Applet width</summary>
+      <description>Width of the Kp graph in pixels.</description>
+    </key>
+
+    <key name="height" type="i">
+      <default>22</default>
+      <summary>Applet height</summary>
+      <description>Height of the Kp graph in pixels.</description>
+    </key>
+
+    <key name="low-color" type="s">
+      <default>"#33cc33"</default>
+      <summary>Low Kp color</summary>
+      <description>Color for Kp values below 5.</description>
+    </key>
+
+    <key name="moderate-color" type="s">
+      <default>"#e6e633"</default>
+      <summary>Moderate Kp color</summary>
+      <description>Color for Kp values from 5 to 6.5.</description>
+    </key>
+
+    <key name="high-color" type="s">
+      <default>"#ff991a"</default>
+      <summary>High Kp color</summary>
+      <description>Color for Kp values from 6.5 to 7.5.</description>
+    </key>
+
+    <key name="severe-color" type="s">
+      <default>"#ff0000"</default>
+      <summary>Severe Kp color</summary>
+      <description>Color for Kp values of 7.5 and above.</description>
+    </key>
+
+  </schema>
+</schemalist>

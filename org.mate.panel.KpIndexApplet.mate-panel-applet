@@ -9,3 +9,5 @@ Description=Kp Index Applet
 Name=Kp Index
 Description=Displays Kp Index graph
 Icon=weather-clear
+Id=KpIndexApplet
+Factory=KpIndexAppletFactory
