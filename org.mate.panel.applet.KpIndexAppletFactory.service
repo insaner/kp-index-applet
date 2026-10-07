@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.mate.panel.applet.KpIndexAppletFactory
+Exec=/usr/libexec/kp-index-applet.py

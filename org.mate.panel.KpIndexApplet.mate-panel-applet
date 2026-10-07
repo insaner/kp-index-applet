@@ -1,0 +1,11 @@
+[Applet Factory]
+Id=KpIndexAppletFactory
+InProcess=false
+Location=/usr/libexec/kp-index-applet.py
+Name=Kp Index Applet Factory
+Description=Kp Index Applet
+
+[KpIndexApplet]
+Name=Kp Index
+Description=Displays Kp Index graph
+Icon=weather-clear
