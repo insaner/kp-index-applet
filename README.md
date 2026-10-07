@@ -2,8 +2,8 @@
 
 A simple MATE panel applet that displays the last few values of the NOAA Planetary K-index as a graph of color bars.
 
-The Kp index is what is used to know when the best time to see the *Aurora Borealis* (Northern Lights).
-The higher the index, the more likely you are to see them.
+The Kp index measures the level of geomagnetic activity on a scale from 0 to 9, and is used to help skywatchers determine
+the best time to see the *Aurora Borealis* (Northern Lights). The higher the index, the more likely you are to see them.
 
 
 ## Installation
